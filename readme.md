@@ -52,3 +52,11 @@ Ubuntu:
   - navigate to the `rccextended/src` folder
   - compile: `qmake rcc.pro && make`
   - move compiled binary to *.local/bin*: `mv -v rcc ~/.local/bin/`
+
+
+
+MACos:
+- brew install qt5 zstd
+- qmake rcc.pro
+- 在 qt 中打开项目 增加zstd lib 链接库文件
+- make
